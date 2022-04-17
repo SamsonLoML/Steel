@@ -112,10 +112,7 @@ def predict():
         elongation = round((prediction[2]*8.8)+26.8,2)
         reduction_area=round((prediction[3]*12.4)+70.2,2)
         
-        return render_template('home.html',prediction_text="0.2% Proof Stress is {}".format(proof_strength)
-                              "MPa \n Tensile Strength is {}".format(tensile_strength)
-                              "% \n Elongation (%) is {}".format(elongation)
-                              "% \n Reduction in Area (%) is {}".format(reduction_area))
+        return render_template('home.html',prediction_text="0.2% Proof Stress is {}".format(proof_strength)"MPa \n Tensile Strength is {}".format(tensile_strength)"MPa \n Elongation is {}".format(elongation)"% \n Reduction in Area is {}".format(reduction_area)"%")
 
 
 
