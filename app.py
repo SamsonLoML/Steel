@@ -1,8 +1,8 @@
 from flask import Flask, request, render_template
 from flask_cors import cross_origin
-import sklearn
+//import sklearn
 import pickle
-import pandas as pd
+//import pandas as pd
 
 app = Flask(__name__)
 model = pickle.load(open("model.pkl", "rb"))
