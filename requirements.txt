@@ -21,3 +21,5 @@ Werkzeug==1.0.1
 wincertstore==0.2
 pyzmq==17.0.0
 ipykernel==4.8.2
+pyzmq==17.0.0
+ipykernel==4.8.2
